@@ -1,0 +1,23 @@
+@use "hero";
+@use "eventDate";
+@use "./variables";
+@use "./components/buttons";
+@use "lineUp";
+@use "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url("../assets/fonts/digital_7/digital-7.ttf") format("truetype");
+}
+
+#eventDate {
+  font-family: "Digital-7", sans-serif;
+  font-size: 2em; /* ajuste conforme necessário */
+}

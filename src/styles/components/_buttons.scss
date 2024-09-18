@@ -1,0 +1,46 @@
+@use "../variables";
+
+.button {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &--primary {
+    display: block;
+    width: 264px;
+    margin: 16px auto;
+    color: variables.$primaryBtnColor;
+    background-color: variables.$primaryBtnBg;
+    border: 2px solid variables.$primaryBtnColor;
+    border-radius: 8px;
+  
+    &:hover {
+      background-color: variables.$secondaryBtnBg;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &--primary {
+      margin: 32px auto;
+      color: variables.$primaryBtnColor;
+      background-color: variables.$primaryBtnBg;
+      border: 2px solid variables.$primaryBtnColor;
+      border-radius: 8px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    &--primary {
+      margin: 8px auto;
+      color: variables.$primaryBtnColor;
+      background-color: variables.$primaryBtnBg;
+      border: 2px solid variables.$primaryBtnColor;
+      border-radius: 8px;
+    }
+  }
+
+}

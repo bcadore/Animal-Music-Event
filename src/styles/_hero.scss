@@ -1,0 +1,87 @@
+.hero {
+  min-height: 100vh;
+  height: 100%;
+  background-image: url(../images/eletronic_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Orbitron", sans-serif;
+  position: relative;
+
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    content: "";
+  }
+
+  &__title {
+    padding: 5vh 0 0 0;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    font-size: 60px;
+  }
+
+  &__info {
+    padding-top: 25vh;
+
+    &__text {
+      margin: 16px 0;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: justify;
+      color: #fff;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__title {
+      font-size: 55px;
+    }
+
+    &__info {
+      padding-top: 20vh;
+      margin: 0 12px;
+
+      &__text {
+        margin: 16px 0;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: justify;
+        color: #fff;
+      }
+    }
+  }
+
+  @media (max-width: 640px) {
+    &__title {
+      font-size: 40px;
+    }
+
+    &__info {
+      padding-top: 15vh;
+      padding-bottom: 1vh;
+      margin: 0 8px;
+
+
+      &__text {
+        margin: 8px 0;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: justify;
+        color: #FFF;
+        
+      }
+    }
+  }
+}

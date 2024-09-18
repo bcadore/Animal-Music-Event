@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Music Festival</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/main.scss" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <h1 class="hero__title">
+          The most animal music festival in the world!
+        </h1>
+        <div class="hero__info">
+          <p class="hero__info__text">
+            Local: Estádio Beira Rio - Porto Alegre - Rio Grande do Sul
+          </p>
+          <p class="hero__info__text">Data: 12 / 09 / 1995</p>
+          <p class="hero__info__text">
+            Descrição do Evento: Prepare-se para uma experiência única onde a
+            natureza se encontra com o som! As atrações principais incluem
+            performances incríveis dos DJs, criando uma atmosfera vibrante e
+            cheia de energia. A cenografia levará o público para uma verdadeira
+            selva urbana, com projeções e instalações interativas inspiradas no
+            reino animal. Espere shows de luzes sincronizados com o som dos DJs,
+            áreas de convivência tematizadas com animais exóticos, e
+            participações especiais de artistas que prometem transformar o palco
+            em uma verdadeira floresta de música e dança.
+          </p>
+          <a href="#" class="button button--primary">Garanta já seu ingresso</a>
+        </div>
+      </div>
+    </header>
+    <body>
+      <main>
+        <section class="lineUp lineUp--eletronica">
+          <div class="container">
+            <div class="lineUp__info">
+              <h2 class="lineUp__info__title">Eletrônica</h2>
+              <p class="lineUp__info__description">
+                DJ Pugz, o cachorro mais estiloso da cena eletrônica, promete
+                trazer batidas intensas e sets impecavelmente sincronizados. Com
+                orelhas sintonizadas nas frequências mais vibrantes, ele combina
+                house, techno e deep bass para criar uma experiência imersiva.
+                Prepare-se para dançar ao ritmo pulsante deste pug que domina as
+                pistas com suas patinhas.
+              </p>
+            </div>
+            <img
+              class="lineUp__image"
+              src="./images/eletronic.jpg"
+              alt="Imagem do Dj Pugz"
+            />
+          </div>
+        </section>
+
+        <section class="lineUp lineUp--hip-hop lineUp--image-left">
+          <div class="container">
+            <div class="lineUp__info">
+              <h2 class="lineUp__info__title">Hip-Hop</h2>
+              <p class="lineUp__info__description">
+                Direto das copas das árvores para os palcos, MC Csaaco traz a
+                essência das ruas com rimas afiadas e um flow ágil como os
+                galhos por onde ele se movimenta. Com uma mistura de beats
+                pesados e letras cheias de atitude, ele transforma cada
+                apresentação em um show acrobático de puro hip-hop.
+              </p>
+            </div>
+            <img
+              class="lineUp__image"
+              src="./images/hip_hop.jpg"
+              alt="Imagem do MC Caco"
+            />
+          </div>
+        </section>
+
+        <section class="lineUp lineUp--indie">
+          <div class="container">
+            <div class="lineUp__info">
+              <h2 class="lineUp__info__title">Indie</h2>
+              <p class="lineUp__info__description">
+                Sapo Beats é o DJ indie mais cool da lagoa, trazendo uma mistura
+                de sons relaxantes e melodias introspectivas. Seu set é como um
+                mergulho no âmago das águas tranquilas, perfeito para quem busca
+                uma experiência sonora mais alternativa. Com seu estilo único,
+                ele harmoniza batidas orgânicas e synths suaves para criar um
+                clima intimista que cativa o público.
+              </p>
+            </div>
+            <img
+              class="lineUp__image"
+              src="./images/indie.jpg"
+              alt="Imagem do Dj Sapo Beats"
+            />
+          </div>
+        </section>
+
+        <section class="lineUp lineUp--rock lineUp--image-left">
+          <div class="container">
+            <div class="lineUp__info">
+              <h2 class="lineUp__info__title">Rock</h2>
+              <p class="lineUp__info__description">
+                Com uma crista flamejante e acordes que despertam até o
+                amanhecer, Galo Hendrix comanda o rock com um som explosivo.
+                Armado com uma guitarra afiada e riffs poderosos, ele mistura
+                clássicos do rock com solos eletrizantes. Cada show é uma
+                verdadeira batalha de guitarra, onde o público é levado ao
+                êxtase com a energia vibrante desse rockeiro emplumado.
+              </p>
+            </div>
+            <img
+              class="lineUp__image"
+              src="./images/rock.jpg"
+              alt="Imagem do Galo Hendrix"
+            />
+          </div>
+        </section>
+
+        <section class="eventDate">
+          <div class="container">
+            <h2 class="eventDate__title">Contagem regressiva para o evento:</h2>
+            <p class="eventDate__text">
+              <span id="eventDate"> </span>
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h4>Contato</h4>
+            <p>Email: contato@animalmusicfest.com</p>
+            <p>Telefone: +55 11 98765-4321</p>
+            <div class="social-media">
+              <a href="#">Instagram</a>
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <h4>Links Úteis</h4>
+            <ul>
+              <li><a href="#">Mapa do Evento</a></li>
+              <li><a href="#">Horários das Atrações</a></li>
+              <li><a href="#">Ingressos</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Seleção de Idioma</h4>
+            <button>Português (BR)</button>
+            <button>Inglês</button>
+            <button>Francês</button>
+            <button>Italiano</button>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 The Most Animal Music Festival in the World. Todos os
+            direitos reservados.
+          </p>
+        </div>
+      </footer>
+    </body>
+    <script src="../src/scripts/index.js"></script>
+  </body>
+</html>
